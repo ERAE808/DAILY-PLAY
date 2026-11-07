@@ -1,6 +1,6 @@
 # DAILY PLAY 2.7.6 사용 안내
 
-[처음으로](../README.md) · [개인정보·통신 안내](PRIVACY.md) · [이전 2.6 안내](USAGE-2.6.md)
+[처음으로](../README.md) · [개인정보·통신 안내](PRIVACY.md)
 
 ## 다운로드와 실행
 

@@ -1,12 +1,12 @@
 # DAILY PLAY 사용 안내
 
-[처음으로](../README.md) · [개인정보·통신 안내](PRIVACY-2.6.md)
+[처음으로](../README.md)
 
-대상: Releases에 게시된 `DAILY-PLAY-2.6.exe`. 확인일: 2026-11-05 KST.
+대상: 이전에 배포된 `DAILY-PLAY-2.6.exe`. 확인일: 2026-11-05 KST.
 
-## 다운로드와 실행
+## 실행
 
-[2.6 릴리스](https://github.com/ERAE808/DAILY-PLAY/releases/tag/DAILYPLAY)의 Assets에서 `DAILY-PLAY-2.6.exe`를 받습니다. EXE를 더블클릭하면 파일 준비 후 미니바를 실행합니다.
+보유한 `DAILY-PLAY-2.6.exe`를 더블클릭하면 파일 준비 후 미니바를 실행합니다.
 
 이 파일은 별도 설치 마법사 없이 파일을 푸는 실행파일입니다. 실행파일 옆에 기록을 저장하는 방식은 아닙니다. 실제 위치는 다음과 같습니다.
 

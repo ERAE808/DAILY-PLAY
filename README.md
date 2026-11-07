@@ -11,7 +11,6 @@
 - [2.7.6 ZIP 받기](https://github.com/ERAE808/DAILY-PLAY/releases/download/v2.7.6/DAILY-PLAY-2.7.6.zip)
 - [2.7.6 릴리스와 이용 안내](https://github.com/ERAE808/DAILY-PLAY/releases/tag/v2.7.6)
 - [공개 파일 SHA-256](SHA256SUMS.txt)
-- [이전 2.6 릴리스](https://github.com/ERAE808/DAILY-PLAY/releases/tag/DAILYPLAY) · [2.6 사용 안내](docs/USAGE-2.6.md)
 
 ZIP 크기는 514,802 bytes이며 SHA-256은 `851AC0E317C9A55625510CD62E01561584DDDBE797FBCDCD0DB3E6B01EBFFE5A`입니다. 기록은 `%LOCALAPPDATA%\DailyPlay.Folder.State`에 별도로 저장됩니다. 기존 2.6 기록을 자동으로 가져오거나 합치지 않습니다.
 
