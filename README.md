@@ -1,6 +1,9 @@
 # DAILY PLAY · 데일리플레이
 
-여러 게임의 일일·주간 할 일과 이벤트 일정을 관리하는 Windows 데스크톱 프로그램입니다. **ChatGPT AI를 활용하여 개발했습니다.**
+나혼자 쓸려다가 생각보다 잘만들어서 혼자쓰기 아까워서 배포하는
+여러 게임의 일일·주간 할 일과 이벤트 일정을 관리하는 Windows 데스크톱 프로그램입니다.
+ **ChatGPT AI를 활용하여 개발했습니다.**
+
 
 **[DAILY PLAY 2.7.6 정식 릴리스](https://github.com/ERAE808/DAILY-PLAY/releases/tag/v2.7.6)** · **[ZIP 다운로드](https://github.com/ERAE808/DAILY-PLAY/releases/download/v2.7.6/DAILY-PLAY-2.7.6.zip)** · [SHA-256 파일](https://github.com/ERAE808/DAILY-PLAY/releases/download/v2.7.6/DAILY-PLAY-2.7.6.zip.sha256)
 
