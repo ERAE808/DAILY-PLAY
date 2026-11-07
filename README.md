@@ -2,15 +2,13 @@
 
 여러 게임의 일일·주간 할 일과 이벤트 일정을 관리하는 Windows 데스크톱 프로그램입니다. **ChatGPT AI를 활용하여 개발했습니다.**
 
-**[현재 배포 파일](https://github.com/ERAE808/DAILY-PLAY/releases/latest)** · **[사용 안내](docs/USAGE.md)** · **[개인정보·통신 안내](docs/PRIVACY.md)** · **[1.0~2.7.6 변경 이력](docs/CHANGELOG.md)** · **[기술·공개 범위 안내](docs/TRANSPARENCY.md)**
+**[DAILY PLAY 2.7.6 정식 릴리스](https://github.com/ERAE808/DAILY-PLAY/releases/tag/v2.7.6)** · **[ZIP 다운로드](https://github.com/ERAE808/DAILY-PLAY/releases/download/v2.7.6/DAILY-PLAY-2.7.6.zip)** · [SHA-256 파일](https://github.com/ERAE808/DAILY-PLAY/releases/download/v2.7.6/DAILY-PLAY-2.7.6.zip.sha256)
+
+[사용 안내](docs/USAGE.md) · [개인정보·통신 안내](docs/PRIVACY.md) · [1.0~2.7.6 변경 이력](docs/CHANGELOG.md) · [기술·공개 범위 안내](docs/TRANSPARENCY.md)
 
 ## 다운로드
 
 현재 공개 파일은 **2.7.6 · `DAILY-PLAY-2.7.6.zip`**입니다. ZIP 전체를 쓰기 가능한 로컬 폴더에 풀고 `DailyPlay-Folder.exe`를 실행하세요. `app` 폴더는 실행 파일 옆에 그대로 둡니다.
-
-- [2.7.6 ZIP 받기](https://github.com/ERAE808/DAILY-PLAY/releases/download/v2.7.6/DAILY-PLAY-2.7.6.zip)
-- [2.7.6 릴리스와 이용 안내](https://github.com/ERAE808/DAILY-PLAY/releases/tag/v2.7.6)
-- [공개 파일 SHA-256](SHA256SUMS.txt)
 
 ZIP 크기는 514,802 bytes이며 SHA-256은 `851AC0E317C9A55625510CD62E01561584DDDBE797FBCDCD0DB3E6B01EBFFE5A`입니다. 기록은 `%LOCALAPPDATA%\DailyPlay.Folder.State`에 별도로 저장됩니다. 기존 2.6 기록을 자동으로 가져오거나 합치지 않습니다.
 
