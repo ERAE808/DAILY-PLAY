@@ -1,10 +1,10 @@
-# DAILY PLAY 2.7.6 사용 안내
+# DAILY PLAY 2.7.7 사용 안내
 
 [처음으로](../README.md) · [개인정보·통신 안내](PRIVACY.md)
 
 ## 다운로드와 실행
 
-1. [2.7.6 릴리스](https://github.com/ERAE808/DAILY-PLAY/releases/tag/v2.7.6)의 Assets에서 `DAILY-PLAY-2.7.6.zip`과 SHA-256 파일을 받습니다.
+1. [2.7.7 릴리스](https://github.com/ERAE808/DAILY-PLAY/releases/tag/v2.7.7)의 Assets에서 `DAILY-PLAY-2.7.7.zip`과 SHA-256 파일을 받습니다.
 2. ZIP 전체를 쓰기 가능한 로컬 폴더에 풉니다.
 3. `app` 폴더를 `DailyPlay-Folder.exe` 옆에 둔 상태에서 EXE를 실행합니다.
 
@@ -18,7 +18,7 @@ Windows x64, Windows PowerShell 5.1, .NET Framework 4.7.2 이상이 필요합니
 - 체크리스트에서 완료 체크·해제, 수치 증가·감소, 항목 추가·수정을 사용할 수 있습니다.
 - 일정은 시작·종료·출처를 확인하며 예상 안내와 확정 정보를 구분합니다.
 - 화면인식은 **설정 → 게임 화면인식**에서 지원 게임과 동의 내용을 확인한 후 켭니다. 기본값은 OFF이며 켜기·끄기 상태는 저장됩니다.
-- 정식 자동반영 대상은 젠레스 존 제로·소녀전선2: 망명의 지원 화면입니다. 수동 우선값을 해제하려면 해당 항목의 **자동 관리로 복귀**를 사용합니다.
+- 정식 자동반영 대상은 젠레스 존 제로·소녀전선2: 망명·명일방주: 엔드필드의 지원 화면입니다. 수동 우선값을 해제하려면 해당 항목의 **자동 관리로 복귀**를 사용합니다.
 - 미니바 X 또는 Windows 알림 영역의 종료 메뉴로 앱을 완전히 종료합니다.
 
 ## 기록과 백업
@@ -35,7 +35,7 @@ Windows x64, Windows PowerShell 5.1, .NET Framework 4.7.2 이상이 필요합니
 3. 새 EXE를 실행하고 기존 기록·설정이 표시되는지 확인합니다. 같은 Windows 계정의 ZIP 버전은 같은 ZIP용 기록 위치를 사용합니다.
 4. 정상 동작 확인 후 이전 제품 폴더를 정리할 수 있습니다. 이전 경로의 바로가기는 앱에서 다시 만듭니다.
 
-프로그램 파일이 누락되거나 손상됐다면 ZIP을 새 폴더에 다시 풉니다. 프로그램 복구를 위해 기록을 삭제하거나 과거 상태로 덮어쓰지 마세요. 상세 기록 내보내기·복원 절차는 ZIP의 `사용방법.txt`에서 확인할 수 있습니다.
+프로그램 파일이 누락되거나 손상됐다면 ZIP을 새 폴더에 다시 풉니다. 프로그램 복구를 위해 기록을 삭제하거나 과거 상태로 덮어쓰지 마세요. 상태 묶음은 앱을 종료한 뒤 `DailyPlay-Folder.exe -ExportState <묶음 파일 경로>`로 내보내고, `DailyPlay-Folder.exe -RestoreState <묶음 파일 경로>`로 복원할 수 있습니다.
 
 기존 2.6·다른 설치 방식의 기록은 자동으로 가져오거나 병합하지 않습니다. 이전 원본과 백업을 보관하고 해당 기록 형식에 맞는 전환 절차를 확인하세요. 현재 업데이트는 사용자가 새 파일을 내려받고 제품 폴더를 교체하는 방식입니다.
 
@@ -46,7 +46,7 @@ Windows x64, Windows PowerShell 5.1, .NET Framework 4.7.2 이상이 필요합니
 ## 파일 일치와 실행 제한
 
 ```powershell
-Get-FileHash -LiteralPath .\DAILY-PLAY-2.7.6.zip -Algorithm SHA256
+Get-FileHash -LiteralPath .\DAILY-PLAY-2.7.7.zip -Algorithm SHA256
 ```
 
 결과를 릴리스의 SHA-256 또는 [SHA256SUMS.txt](../SHA256SUMS.txt)와 비교합니다. 해시는 파일 일치 확인값이며 안전성 인증이나 코드 서명을 대신하지 않습니다.
