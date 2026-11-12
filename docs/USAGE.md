@@ -1,12 +1,12 @@
-# DAILY PLAY 2.7.7 사용 안내
+# DAILY PLAY 2.7.8 사용 안내
 
 [프로젝트 홈](../README.md) · [개인정보·통신 안내](PRIVACY.md) · [버전별 변경 이력](CHANGELOG.md)
 
 ## 1. GitHub에서 다운로드
 
-1. 브라우저에서 [DAILY PLAY 2.7.7 릴리스](https://github.com/ERAE808/DAILY-PLAY/releases/tag/v2.7.7)를 엽니다. 공개 릴리스의 파일은 GitHub 계정 없이 받을 수 있습니다.
-2. 페이지 하단의 **Assets**를 펼치고 [DAILY-PLAY-2.7.7.zip](https://github.com/ERAE808/DAILY-PLAY/releases/download/v2.7.7/DAILY-PLAY-2.7.7.zip)을 내려받습니다. Assets에 함께 표시되는 `Source code (zip)`과 `Source code (tar.gz)`는 GitHub가 자동으로 제공하는 저장소 압축 파일입니다. 앱을 실행하려면 이름에 `DAILY-PLAY-2.7.7`이 들어간 ZIP을 선택하세요.
-3. [DAILY-PLAY-2.7.7.zip.sha256](https://github.com/ERAE808/DAILY-PLAY/releases/download/v2.7.7/DAILY-PLAY-2.7.7.zip.sha256)도 받습니다. 이 파일에는 ZIP과 비교할 SHA-256 값이 들어 있습니다.
+1. 브라우저에서 [DAILY PLAY 2.7.8 릴리스](https://github.com/ERAE808/DAILY-PLAY/releases/tag/v2.7.8)를 엽니다. 공개 릴리스의 파일은 GitHub 계정 없이 받을 수 있습니다.
+2. 페이지 하단의 **Assets**를 펼치고 [DAILY-PLAY-2.7.8.zip](https://github.com/ERAE808/DAILY-PLAY/releases/download/v2.7.8/DAILY-PLAY-2.7.8.zip)을 내려받습니다. Assets에 함께 표시되는 `Source code (zip)`과 `Source code (tar.gz)`는 GitHub가 자동으로 제공하는 저장소 압축 파일입니다. 앱을 실행하려면 이름에 `DAILY-PLAY-2.7.8`이 들어간 ZIP을 선택하세요.
+3. [DAILY-PLAY-2.7.8.zip.sha256](https://github.com/ERAE808/DAILY-PLAY/releases/download/v2.7.8/DAILY-PLAY-2.7.8.zip.sha256)도 받습니다. 이 파일에는 ZIP과 비교할 SHA-256 값이 들어 있습니다.
 
 다른 버전의 다운로드와 변경 사항은 [전체 릴리스](https://github.com/ERAE808/DAILY-PLAY/releases)에서 볼 수 있습니다. ZIP과 체크섬은 같은 버전의 릴리스에서 받으세요.
 
@@ -16,10 +16,10 @@
 2. 아래 명령을 실행합니다. 브라우저가 파일 이름 뒤에 `(1)` 등을 붙였다면 명령에도 실제 이름을 적으세요.
 
    ```powershell
-   (Get-FileHash -LiteralPath '.\DAILY-PLAY-2.7.7.zip' -Algorithm SHA256).Hash
+   (Get-FileHash -LiteralPath '.\DAILY-PLAY-2.7.8.zip' -Algorithm SHA256).Hash
    ```
 
-3. 출력된 64자리 값을 체크섬 파일이나 릴리스 본문의 값과 비교합니다. 2.7.7 ZIP의 SHA-256은 `50FFB809D3489068C6FBCEAB06354EB6C3F5D1D68F8B7F6813E5086A9A3B89E7`입니다. 값이 다르면 같은 릴리스에서 다시 내려받고 확인하세요.
+3. 출력된 64자리 값을 체크섬 파일이나 릴리스 본문의 값과 비교합니다. 2.7.8 ZIP의 SHA-256은 `CDE6F9CED7463CCFF1AA34C1A159A112509846EC20D1ED9481389F937E701CDF`입니다. 값이 다르면 같은 릴리스에서 다시 내려받고 확인하세요.
 
 해시는 내려받은 ZIP이 릴리스에서 안내한 파일과 일치하는지 확인하는 값입니다. 서명과 실행 제한은 아래 [실행 문제 해결](#실행-문제-해결)을 확인하세요.
 
@@ -27,7 +27,7 @@
 
 Windows x64, Windows PowerShell 5.1, .NET Framework 4.7.2 이상이 필요합니다. 한국어 화면인식을 사용하려면 Windows의 한국어 OCR 기능도 필요합니다.
 
-1. 파일 탐색기에서 ZIP을 우클릭하고 **모두 압축 풀기**를 선택합니다. 문서 폴더 아래에 `DAILY-PLAY-2.7.7`처럼 쓰기 가능한 새 로컬 폴더를 지정합니다.
+1. 파일 탐색기에서 ZIP을 우클릭하고 **모두 압축 풀기**를 선택합니다. 문서 폴더 아래에 `DAILY-PLAY-2.7.8`처럼 쓰기 가능한 새 로컬 폴더를 지정합니다.
 2. 해제된 폴더에서 `DailyPlay-Folder.exe`와 `app` 폴더가 같은 위치에 있는지 확인합니다. ZIP 안에는 실행용 PowerShell 스크립트 원문이 포함되어 있으므로 `app` 폴더와 그 내용도 함께 보관하세요.
 3. 해제된 폴더에서 `DailyPlay-Folder.exe`를 실행합니다. 앱이 정상적으로 시작되면 Windows 계정별 기록 위치가 준비됩니다.
 
@@ -42,7 +42,7 @@ Windows x64, Windows PowerShell 5.1, .NET Framework 4.7.2 이상이 필요합니
 
 ### 화면인식 켜기와 수동 조작
 
-화면인식의 기본값은 **OFF**입니다. 사용하려면 **설정 → 게임 화면인식**에서 동의 안내를 읽고 화면인식과 사용할 게임을 켭니다. 2.7.7의 정식 자동 반영은 젠레스 존 제로, 소녀전선2: 망명, 명일방주: 엔드필드의 지원 화면과 항목에 적용됩니다.
+화면인식의 기본값은 **OFF**입니다. 사용하려면 **설정 → 게임 화면인식**에서 동의 안내를 읽고 화면인식과 사용할 게임을 켭니다. 2.7.8의 정식 자동 반영은 젠레스 존 제로, 소녀전선2: 망명, 명일방주: 엔드필드, 명조: 워더링 웨이브의 지원 화면과 항목에 적용됩니다.
 
 화면인식 설정과 관계없이 체크·해제와 수치 조작을 할 수 있습니다. 수동으로 정한 항목을 다시 자동으로 관리하려면 해당 항목을 우클릭하고 **자동 관리로 복귀**를 선택합니다. 화면인식을 끄려면 같은 설정 메뉴에서 끕니다. 켜기·끄기 상태는 저장됩니다.
 
@@ -77,8 +77,8 @@ Windows x64, Windows PowerShell 5.1, .NET Framework 4.7.2 이상이 필요합니
 
 1. 현재 앱을 완전히 종료하고 기록을 백업합니다.
 2. 새 릴리스의 ZIP을 내려받아 체크섬을 확인하고, 이전 제품 폴더와 별개의 새 로컬 폴더에 모두 풉니다.
-3. 같은 Windows 계정에서 새 폴더의 `DailyPlay-Folder.exe`를 실행합니다. 예를 들어 2.7.6 ZIP에서 2.7.7 ZIP으로 바꿀 때 두 버전은 같은 기록 위치를 사용합니다.
-4. 기존 완료 기록과 설정이 보이는지 확인한 뒤 이전 제품 폴더를 정리합니다. 예전 바로가기가 이전 폴더를 열면 앱에서 바로가기를 다시 만듭니다.
+3. 같은 Windows 계정에서 새 폴더의 `DailyPlay-Folder.exe`를 실행합니다. 예를 들어 2.7.7 ZIP에서 2.7.8 ZIP으로 바꿀 때 두 버전은 같은 기록 위치를 사용합니다.
+4. 기존 완료 기록과 설정이 보이는지 확인한 뒤 이전 제품 폴더를 정리합니다. 예전 바로가기가 이전 폴더를 열면 설정에서 **미니바 바로가기 만들기**를 눌러 바탕화면과 시작 메뉴의 링크를 갱신합니다.
 
 2.6 또는 다른 설치 방식에서 옮길 때는 자동 가져오기나 병합이 적용되지 않습니다. 이전 제품과 기록의 백업을 보관하고 해당 버전과 설치 방식에 맞는 전환 절차를 확인하세요.
 
@@ -86,7 +86,7 @@ Windows x64, Windows PowerShell 5.1, .NET Framework 4.7.2 이상이 필요합니
 
 | 증상 | 확인할 내용 |
 | --- | --- |
-| 압축을 풀었는데 EXE가 보이지 않음 | 받은 파일이 `DAILY-PLAY-2.7.7.zip`인지 확인하고 **모두 압축 풀기**를 다시 사용합니다. |
+| 압축을 풀었는데 EXE가 보이지 않음 | 받은 파일이 `DAILY-PLAY-2.7.8.zip`인지 확인하고 **모두 압축 풀기**를 다시 사용합니다. |
 | 프로그램 파일이 없거나 손상됨 | 체크섬이 일치하는 ZIP을 새 폴더에 모두 풀고 새 EXE를 실행합니다. 기록 폴더와 백업은 보관하세요. |
 | 새 버전에서 기존 기록이 보이지 않음 | 이전과 같은 Windows 계정인지, 이전 버전도 폴더형 ZIP이었는지 확인합니다. 기존 기록과 백업을 먼저 확보한 뒤 원인을 확인하세요. |
 | Windows에서 실행을 차단함 | 릴리스 출처, 파일 해시, 표시된 오류 문구를 확인합니다. 실행 파일과 PowerShell 스크립트는 미서명입니다. 인터넷 출처 표식이 남은 스크립트는 Windows 실행 정책에 따라 차단될 수 있습니다. 해당 조건의 실제 실행과 온라인 평판은 확인되지 않았습니다. 보안 기능과 실행 정책은 유지하세요. |
