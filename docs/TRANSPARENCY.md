@@ -1,6 +1,6 @@
 # 사용 기술·AI 활용·공개 범위
 
-[처음으로](../README.md) · [변경 이력](CHANGELOG.md)
+[문서 목차](README.md) · [변경 이력](CHANGELOG.md)
 
 이 문서는 사용 기술과 공개 원칙을 설명합니다. 현재 제공 기능, 배포 버전, 향후 계획을 구분합니다.
 
@@ -10,12 +10,12 @@ DAILY PLAY는 **ChatGPT AI를 활용하여 개발한 프로그램**입니다. �
 
 ## 배포와 Velopack 사용 범위
 
-Velopack은 과거 설치형 패키지의 제작과 설치 초기화·상태 확인에 사용했습니다. 현재 ZIP은 .NET 압축 라이브러리로 만들며, C# 앱이 GitHub Releases에서 공개 버전을 확인합니다. 사용자가 다운로드 페이지에서 새 ZIP을 받아 교체합니다.
+Velopack은 과거 설치형 패키지의 제작과 설치 초기화·상태 확인에 사용했습니다. 2.8.0 폴더판의 ZIP은 .NET 압축 라이브러리로 만들었습니다. 앱의 **업데이트 확인**에서 공개 버전을 확인한 뒤, 다운로드 페이지에서 새 ZIP을 받아 별도 폴더에 풉니다. [버전 전환 방법](USAGE.md#5-새-버전으로-옮기기)
 
 ## 2.8.0의 배포 구성
 
-- Windows x64용으로 컴파일한 C# 앱과 자체 포함 .NET 10 데스크톱 런타임을 배포합니다. 앱은 PowerShell 없이 실행됩니다.
-- 저장소에는 사용자용 문서, Releases에는 실행용 ZIP과 체크섬을 제공합니다.
+- Windows x64용으로 컴파일한 C#·WPF 앱과 .NET Desktop Runtime 10.0.15를 함께 배포합니다. 앱은 PowerShell 없이 실행됩니다.
+- 사용자용 문서는 저장소에서, 실행용 ZIP과 체크섬은 [2.8.0 정식 릴리스](https://github.com/ERAE808/DAILY-PLAY/releases/tag/v2.8.0)에서 제공합니다.
 - 동봉 런타임의 라이선스와 제3자 안내는 `app/assets/notices`에 있습니다. Windows SDK 구성요소에는 [Microsoft Windows SDK 이용 조건](https://learn.microsoft.com/en-us/legal/windows-sdk/license)이 적용됩니다. 게임 이름과 아이콘의 권리는 각 권리자에게 있습니다.
 
 ## PC에 저장하는 기록과 외부 통신

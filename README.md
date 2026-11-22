@@ -8,13 +8,13 @@
 
 **[DAILY PLAY 2.8.0 정식 릴리스](https://github.com/ERAE808/DAILY-PLAY/releases/tag/v2.8.0)** · **[ZIP 다운로드](https://github.com/ERAE808/DAILY-PLAY/releases/download/v2.8.0/DAILY-PLAY-2.8.0.zip)** · [SHA-256 파일](https://github.com/ERAE808/DAILY-PLAY/releases/download/v2.8.0/DAILY-PLAY-2.8.0.zip.sha256)
 
-[사용 안내](docs/USAGE.md) · [개인정보·통신 안내](docs/PRIVACY.md) · [1.0~2.8.0 변경 이력](docs/CHANGELOG.md) · [기술·공개 범위 안내](docs/TRANSPARENCY.md)
+[문서 목차](docs/README.md) · [사용 안내](docs/USAGE.md) · [개인정보·통신 안내](docs/PRIVACY.md) · [1.0~2.8.0 변경 이력](docs/CHANGELOG.md) · [기술·공개 범위 안내](docs/TRANSPARENCY.md)
 
 ## 다운로드
 
 Releases의 **Assets**에서 `DAILY-PLAY-2.8.0.zip`을 내려받고 SHA-256을 확인하세요. ZIP 크기는 80,795,311바이트이며 SHA-256은 `A1682B842583C8E81233E76C91EA8A1D9464464DE904A5EC179811F665CBEB86`입니다.
 
-ZIP 전체를 쓰기 가능한 로컬 폴더에 풀고 `DailyPlay-Folder.exe`를 실행하세요. `app`과 `runtime` 폴더는 실행 파일 옆에 함께 둡니다. 기록은 `%LOCALAPPDATA%\DailyPlay.Folder.State`에 저장됩니다. 같은 Windows 계정에서 이전 폴더판을 종료한 뒤 새 폴더판을 열면 기존 기록을 사용합니다.
+ZIP 전체를 쓰기 가능한 로컬 폴더에 풀고 `DailyPlay-Folder.exe`를 실행하세요. `app`과 `runtime` 폴더는 실행 파일 옆에 함께 둡니다. 기록은 `%LOCALAPPDATA%\DailyPlay.Folder.State`에 저장됩니다. 이전 폴더판을 사용 중이라면 앱을 완전히 종료하고 기록을 백업한 뒤 같은 Windows 계정에서 새 폴더판을 실행하세요. [버전별 기록 이관](docs/USAGE.md#버전별-기록-이관)
 
 GitHub가 자동으로 제공하는 `Source code (zip/tar.gz)`에는 이 저장소의 문서가 들어 있습니다. 앱은 **Assets**의 `DAILY-PLAY-2.8.0.zip`으로 실행하세요.
 
